@@ -107,6 +107,15 @@ function App() {
       {done ? (
         <p className="mt-8 text-green-600">Danke fürs mitmachen!</p>
       ) : undefined}
+      <p className="text-zinc-600 text-xs max-w-lg m-8">
+        Neben den Informationen die du in dem Formular angibst, sammelt diese
+        Website keinerlei Daten. Die Übermittlung findest anonym und
+        verschlüsselt über nostr statt. Den Quellcode für diese Website findest
+        du hier:{" "}
+        <a href="https://github.com/Egge21M/cashu-qna" target="_blank">
+          GitHub
+        </a>
+      </p>
     </div>
   );
 }
